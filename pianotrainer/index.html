@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Piano Trainer — Sight Reading for iPad</title>
 <meta name="description" content="Piano Trainer helps beginners learn to read sheet music by playing it. A new melody appears on the grand staff, you play it on your own piano, and the app listens through your iPad's microphone and marks each note correct or wrong as you play.">
+<meta name="apple-itunes-app" content="app-id=6832732349">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="app-icon.png">
 <style>
   :root{color-scheme:dark light;--bg:#0A0B0D;--fg:#e9e9ee;--muted:#9a9aa5;--body:#c9c9d2;--card:#141519;--line:#ffffff14;--accent:#3d9bff}
   @media (prefers-color-scheme: light){:root{--bg:#ffffff;--fg:#14151a;--muted:#6b6b75;--body:#33343c;--card:#f3f5f9;--line:#00000014;--accent:#0a6fe0}}
@@ -13,12 +16,10 @@
   main{max-width:720px;margin:0 auto}
   a{color:var(--accent)}
   .hero{text-align:center;padding:24px 0 8px}
-  .icon{width:128px;height:128px;margin:0 auto 20px;border-radius:28px;background:linear-gradient(160deg,#5eb1ff 0%,#0a6fe0 55%,#004fc4 100%);display:flex;align-items:center;justify-content:center;box-shadow:0 12px 32px #0a6fe033}
-  .icon img{width:104px;height:104px;display:block}
+  .icon{width:128px;height:128px;margin:0 auto 20px}
+  .icon img{width:128px;height:128px;border-radius:28px;display:block;box-shadow:0 12px 32px #0a6fe033}
   h1{font-size:34px;letter-spacing:-.7px;margin:0 0 4px}
-  .tagline{font-size:19px;color:var(--muted);margin:0 0 24px}
-  .cta{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;font-size:17px;padding:13px 26px;border-radius:12px}
-  .cta-note{color:var(--muted);font-size:14px;margin:12px 0 0}
+  .tagline{font-size:19px;color:var(--muted);margin:0 0 24px;text-wrap:balance}
   .price{color:var(--muted);font-size:14px;margin:6px 0 0}
   h2{font-size:19px;margin:36px 0 8px;letter-spacing:-.2px}
   p,li{color:var(--body)}
@@ -32,11 +33,10 @@
 <body>
 <main>
   <div class="hero">
-    <div class="icon"><img src="icon-clef.svg" alt="Piano Trainer app icon — white treble clef"></div>
+    <div class="icon"><img src="app-icon.png" alt="Piano Trainer app icon"></div>
     <h1>Piano Trainer</h1>
-    <p class="tagline">Sight reading for iPad. Read the notes, play them on your piano, get scored as you go.</p>
-    <a class="cta" href="https://apps.apple.com/app/id6832732349">Download on the App Store</a>
-    <p class="cta-note">Coming soon — Piano Trainer 1.0 is being prepared for the App Store, and this button will open its listing once Apple publishes it.</p>
+    <p class="tagline">Sight reading for iPad. Read the notes, play them on your piano, get scored as you&nbsp;go.</p>
+    <a href="https://apps.apple.com/app/id6832732349"><picture><source srcset="app-store-badge-white.svg" media="(prefers-color-scheme: dark)"><img src="app-store-badge.svg" alt="Download on the App Store" width="120" height="40"></picture></a>
     <p class="price">$4.99 · iPad only · iPadOS 18+</p>
   </div>
 
@@ -64,11 +64,10 @@
     <strong>Private by design.</strong> Piano Trainer has no accounts, no ads, and no tracking. Audio is analysed on your iPad in real time and is never recorded, stored, or sent anywhere.
   </div>
 
-  <p>Questions? Email <a href="mailto:giorgia.marenda@gmail.com">giorgia.marenda@gmail.com</a> — see the <a href="support.html">support page</a> for getting started and common questions.</p>
+  <p>Questions? Email <a href="mailto:hello@curlybrackets.it">hello@curlybrackets.it</a> — see the <a href="support.html">support page</a> for getting started and common questions.</p>
 
   <footer>
-    <a href="privacy.html">Privacy Policy</a> · <a href="support.html">Support</a><br>
-    Piano Trainer · Bravura music font © Steinberg Media Technologies GmbH, licensed under the SIL Open Font License 1.1.
+    <a href="privacy.html">Privacy Policy</a> · <a href="support.html">Support</a>
   </footer>
 </main>
 </body>
