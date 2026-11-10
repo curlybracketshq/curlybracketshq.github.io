@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap');
 :root{color-scheme:dark light;--bg:#0A0B0D;--fg:#e9e9ee;--muted:#9a9aa5;--body:#c9c9d2;--card:#141519;--line:#ffffff14;--accent:#3d9bff;--strong:#fff}
 @media (prefers-color-scheme: light){:root{--bg:#ffffff;--fg:#14151a;--muted:#6b6b75;--body:#33343c;--card:#f3f5f9;--line:#00000014;--accent:#0a6fe0;--strong:#14151a}}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;padding:40px 16px}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 "JetBrains Mono",ui-monospace,"SF Mono",Menlo,Consolas,monospace;padding:40px 16px}
 main{max-width:720px;margin:0 auto}
 a{color:var(--accent)}
 p,li{color:var(--body)}
