@@ -1,0 +1,21 @@
+# Curly Brackets
+
+> Curly Brackets is an independent studio that makes iPhone apps. Its main app is Cadenza.
+
+## Cadenza
+
+Cadenza is a free iPhone app (iOS 26 or later) that turns workout videos you saved from Instagram Reels and TikTok into step-by-step routines with timers, spoken cues and hands-free rep counting. There is no account, no subscription and no in-app purchase, and imports are processed on the iPhone.
+
+- [Cadenza home page](https://curlybrackets.it/cadenza/): what it does, how importing works, FAQ
+- [App Store listing](https://apps.apple.com/app/id6794137157): "Cadenza: Workout Rep Counter"
+- [Support](https://curlybrackets.it/cadenza/support.html): requirements and troubleshooting
+- [Privacy policy](https://curlybrackets.it/cadenza/privacy.html): Cadenza collects no personal data
+
+Key facts:
+
+- Import a workout from a saved video, up to 20 screenshots, a video plus a screenshot of its move list, or a pasted caption. Cadenza reads on-screen text and captions (not the voiceover), builds the routine, and lets you edit it before saving.
+- It does not import from a pasted Reel or TikTok link; save the video to Photos and share it to Cadenza.
+- Hands-free rep counting from AirPods head motion (AirPods Pro, AirPods 3rd generation or later, AirPods Max) for squats, lunges, side lunges, step-ups, jump squats, tuck jumps, burpees, skaters, jumping jacks and jump rope. Other moves run on a timer.
+- Spoken step announcements, countdowns and halfway callouts; a short clip of each move from the original video.
+- Collections with weekly reminders, a 55+ move library, presets, History, Apple Health saving, and routines shared as links.
+- iPhone only. No Android version.
