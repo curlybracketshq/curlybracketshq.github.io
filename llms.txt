@@ -4,7 +4,7 @@
 
 ## Cadenza
 
-Cadenza is a free iPhone app (iOS 26 or later) that turns workout videos you saved from Instagram Reels and TikTok into step-by-step routines with timers, spoken cues and hands-free rep counting. There is no account, no subscription and no in-app purchase, and imports are processed on the iPhone.
+Cadenza is an iPhone app (iOS 26 or later) that turns workout videos you saved from Instagram Reels and TikTok into step-by-step routines with timers, spoken cues and hands-free rep counting. It is free to download for now, needs no account, and processes imports on the iPhone.
 
 - [Cadenza home page](https://curlybrackets.it/cadenza/): what it does, how importing works, FAQ
 - [App Store listing](https://apps.apple.com/app/id6794137157): "Cadenza: Workout Rep Counter"
