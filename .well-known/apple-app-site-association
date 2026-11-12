@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["WN6G7U99K4.com.giorgia.Cadenza"],
+        "components": [
+          { "/": "/cadenza/w", "comment": "Shared Cadenza workouts. The routine is in the fragment." }
+        ]
+      }
+    ]
+  }
+}
