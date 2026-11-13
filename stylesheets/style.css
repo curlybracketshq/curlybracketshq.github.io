@@ -207,4 +207,15 @@ footer * {
     width: auto;
     max-width:100%;
   }
+
+  /* The title is one unbreakable line at 250%; let it wrap and shrink on phones. */
+  h1 {
+    font-size: 180%;
+    letter-spacing: -1px;
+  }
+
+  /* Long URLs (e.g. project links) must wrap instead of overflowing the viewport. */
+  a {
+    overflow-wrap: anywhere;
+  }
 }
