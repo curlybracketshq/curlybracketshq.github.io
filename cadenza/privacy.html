@@ -18,12 +18,12 @@
 <body>
 <main>
   <h1>Privacy Policy</h1>
-  <div class="date">Effective date: 3 November 2026 · Applies to Cadenza 3.0 and later</div>
+  <div class="date">Effective date: 16 November 2026 · Applies to Cadenza 3.0 and later (iCloud sync and Unlimited Imports from 3.2)</div>
 
   <p>Cadenza (“the app”) counts your reps hands-free using your AirPods’ motion sensors, for jump rope and other moves such as jumping jacks, squats, burpees and lunges. It also runs workout routines, which you can import from videos, screenshots or text, write yourself, or generate from a short description. This policy explains exactly what the app does — and does not do — with your data.</p>
 
   <div class="tl">
-    <strong>The short version:</strong> Cadenza does not collect, transmit, sell, or share any personal data. Everything happens on your device, including reading imported videos and screenshots and the on-device AI features. There are no accounts, no analytics, no advertising, and no third-party trackers. The app has no servers of its own and uploads nothing.
+    <strong>The short version:</strong> Cadenza does not collect, transmit, sell, or share any personal data. Everything happens on your device, including reading imported videos and screenshots and the on-device AI features. There are no accounts, no analytics, no advertising, and no third-party trackers. The app has no servers of its own. If you are signed in to iCloud, your workouts sync through <strong>your own private iCloud account</strong>, which only you can access; we never see that data. Purchases are handled entirely by Apple.
   </div>
 
   <h2>Motion &amp; Fitness</h2>
@@ -48,17 +48,26 @@
   <p>When you keep a video with a routine, Cadenza stores its own copy of that video inside the app’s private storage on your device, so the routine still works if you delete the original. Thumbnails and the short clips shown for each move are made from that copy on your device. These copies are never uploaded. You can delete all of them at any time in Cadenza’s <strong>Settings → Remove videos</strong>; deleting the app also deletes them.</p>
 
   <h2>Sharing a workout</h2>
-  <p>You can share a routine with someone as a link (<code>https://giorgia.github.io/w#…</code>). A link is only created when you choose to share. The routine is written into the part of the link after the <code>#</code>, which browsers and apps do not send to any web server, so the routine is not transmitted to or stored on any server. Anyone who has the link can see the routine it contains, so share it only with people you want to see it. A shared routine contains its title, rounds, and moves (including any custom moves it uses), plus the original creator’s handle and platform if the routine was imported with one; it never includes your videos, History, or Health data.</p>
-  <p>If the recipient has Cadenza installed, the link opens straight in the app. If not, it opens a short web page that points them to the App Store. That page, and this one, are static pages hosted by GitHub Pages. They use no cookies, analytics, advertising, or third-party scripts. As with any website, GitHub, the host, receives standard technical information (such as IP address and browser type) when a page is loaded; this is handled under <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement">GitHub’s Privacy Statement</a> and does not include the routine itself.</p>
+  <p>You can share a routine with someone as a link (<code>https://curlybrackets.it/cadenza/w#…</code>; links shared from earlier versions, <code>https://giorgia.github.io/w#…</code>, keep working). A link is only created when you choose to share. The routine is written into the part of the link after the <code>#</code>, which browsers and apps do not send to any web server, so the routine is not transmitted to or stored on any server. Anyone who has the link can see the routine it contains, so share it only with people you want to see it. A shared routine contains its title, rounds, and moves (including any custom moves it uses), plus the original creator’s handle and platform if the routine was imported with one; it never includes your videos, History, or Health data.</p>
+  <p>If the recipient has Cadenza installed, the link opens straight in the app. If not, it opens a short web page that points them to the App Store. That page, and this one, are static pages hosted by GitHub Pages (both the curlybrackets.it and the older giorgia.github.io addresses). They use no cookies, analytics, advertising, or third-party scripts. As with any website, GitHub, the host, receives standard technical information (such as IP address and browser type) when a page is loaded; this is handled under <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement">GitHub’s Privacy Statement</a> and does not include the routine itself.</p>
 
   <h2>Ratings</h2>
   <p>Cadenza may occasionally ask you to rate it using Apple’s standard App Store rating prompt. That prompt is shown and handled by iOS; Cadenza does not see whether you rated it or what you wrote.</p>
 
-  <h2>On-device storage</h2>
-  <p>Your History, records (such as your best count and best streak), routines, custom moves, saved videos, and settings are stored locally on your device. They are not sent to any Cadenza server — Cadenza has none. Deleting the app deletes this data; workouts already saved to Apple Health stay in Apple Health until you remove them there.</p>
+  <h2>Storage and iCloud sync</h2>
+  <p>Your routines, collections, custom moves and workout History are stored on your device. Starting with Cadenza 3.2, if you are signed in to iCloud, they also sync to the <strong>private database of your own iCloud account</strong> (Apple CloudKit), so they appear on your other devices signed in to the same Apple Account and come back if you reinstall the app. That data is stored by Apple under your Apple Account and protected by Apple’s iCloud security; Cadenza’s developer cannot access it, and it is not sent to any Cadenza server — Cadenza has none. To sync, Apple may send your device silent notifications when something changes on another device; these come from Apple’s iCloud service, not from us.</p>
+  <p>Your saved videos, records (such as your best count and best streak) and settings stay on the device and are not synced. A routine opened on another device shows that its video is on the device that saved it.</p>
+  <p>If you are not signed in to iCloud, or turn iCloud off for Cadenza, everything stays on the device only. Deleting the app deletes the data on that device; the copy in your iCloud stays until you delete it in the Settings app’s iCloud storage settings. Workouts already saved to Apple Health stay in Apple Health until you remove them there.</p>
+
+  <h2>Unlimited Imports (in-app purchase)</h2>
+  <p>Cadenza offers an optional one-time in-app purchase, Unlimited Imports. Purchases, restores and Family Sharing are handled by Apple through the App Store; Cadenza never receives your payment details, name or Apple Account information. The app only asks the App Store whether the purchase is active on your Apple Account.</p>
+  <p>To count free imports, Cadenza keeps a short list of the random identifiers of the routines that used one, plus a few on/off flags (for example, whether the thank-you note for existing users was shown). This list is stored on your device, in the device’s Keychain and in iCloud key-value storage of your own Apple Account, so it stays consistent across your devices and reinstalls. It contains no workout content and nothing that identifies you.</p>
+
+  <h2>Reminders</h2>
+  <p>If you set a reminder for a collection, Cadenza asks for permission to send notifications and schedules them on your device with iOS. Reminders are created and delivered on your device; nothing about them is sent to us. You can turn them off in the collection or in <strong>Settings → Notifications → Cadenza</strong>.</p>
 
   <h2>Data sharing</h2>
-  <p>None. Cadenza does not share data with any third parties, and does not use any third-party analytics, advertising, or tracking SDKs. The only time anything leaves the app is when you choose to share it yourself, such as sending a workout link.</p>
+  <p>None. Cadenza does not share data with any third parties, and does not use any third-party analytics, advertising, or tracking SDKs. Apart from iCloud sync to your own Apple Account and App Store purchases handled by Apple, the only time anything leaves the app is when you choose to share it yourself, such as sending a workout link.</p>
 
   <h2>Children</h2>
   <p>Cadenza is not directed to children and does not knowingly collect any information from children.</p>
