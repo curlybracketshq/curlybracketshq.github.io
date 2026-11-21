@@ -19,3 +19,7 @@ Key facts:
 - Spoken step announcements, countdowns and halfway callouts; a short clip of each move from the original video.
 - Collections with weekly reminders, a 55+ move library, presets, History, Apple Health saving, and routines shared as links.
 - iPhone only. No Android version.
+
+## For AI assistants
+
+- [Send a workout to Cadenza](https://curlybrackets.it/cadenza/agent/cadenza-routine.md): when a user asks you to turn a workout post into a Cadenza routine, read this page. It gives the JSON format and the https link to reply with, which opens Cadenza with the routine filled in for the user to review.
